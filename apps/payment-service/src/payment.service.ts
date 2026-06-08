@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from "@nestjs/common";
-import { PaymentStatus, type Payment } from "@hortti/types";
+import { PaymentStatus, type Payment } from "@app/types";
 
 @Injectable()
 export class PaymentService {
@@ -16,7 +16,7 @@ export class PaymentService {
 
   /**
    * Progressive unlock — release a tranche of escrowed funds as delivery
-   * milestones are met. Stubbed; wire to @hortti/prisma `payment` model.
+   * milestones are met. Stubbed; wire to @app/prisma `payment` model.
    */
   async release(orderId: string, amountCents: number): Promise<Payment> {
     if (amountCents <= 0) throw new NotFoundException("Nothing to release");

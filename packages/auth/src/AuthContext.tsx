@@ -6,7 +6,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { JwtPayloadSchema, type AuthTokens, type JwtPayload } from "@hortti/types";
+import { JwtPayloadSchema, type AuthTokens, type JwtPayload } from "@app/types";
 
 interface AuthState {
   user: JwtPayload | null;
@@ -21,7 +21,7 @@ interface AuthContextValue extends AuthState {
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-const STORAGE_KEY = "hortti.auth.tokens";
+const STORAGE_KEY = "app.auth.tokens";
 
 function decode(token: string): JwtPayload | null {
   try {

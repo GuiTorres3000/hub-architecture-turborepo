@@ -1,5 +1,5 @@
-import { useAuth } from "@hortti/auth";
-import type { Role } from "@hortti/types";
+import { useAuth } from "@app/auth";
+import type { Role } from "@app/types";
 
 /** Returns the current principal's role (or null when unauthenticated). */
 export function useRole(): Role | null {

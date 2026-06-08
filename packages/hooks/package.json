@@ -1,5 +1,5 @@
 {
-  "name": "@hortti/hooks",
+  "name": "@app/hooks",
   "version": "0.0.0",
   "private": true,
   "main": "./src/index.ts",
@@ -12,14 +12,14 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@hortti/auth": "workspace:*",
-    "@hortti/types": "workspace:*"
+    "@app/auth": "workspace:*",
+    "@app/types": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "@hortti/config": "workspace:*",
+    "@app/config": "workspace:*",
     "@types/react": "^18.3.12",
     "typescript": "^5.6.3"
   }

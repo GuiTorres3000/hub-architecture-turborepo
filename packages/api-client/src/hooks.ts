@@ -5,7 +5,7 @@ import {
   type Order,
   type Product,
   z,
-} from "@hortti/types";
+} from "@app/types";
 import { HttpClient } from "./http";
 import { queryKeys } from "./queryKeys";
 

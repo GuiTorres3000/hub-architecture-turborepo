@@ -1,5 +1,5 @@
-import { useAuth } from "@hortti/auth";
-import type { CompanyTier } from "@hortti/types";
+import { useAuth } from "@app/auth";
+import type { CompanyTier } from "@app/types";
 
 /** Returns the buyer company tier of the current principal, if any. */
 export function useCompanyTier(): CompanyTier | null {

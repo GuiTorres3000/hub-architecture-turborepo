@@ -5,7 +5,7 @@ import {
   Injectable,
 } from "@nestjs/common";
 import { Reflector } from "@nestjs/core";
-import { Role, type JwtPayload } from "@hortti/types";
+import { Role, type JwtPayload } from "@app/types";
 import { ROLES_KEY } from "../decorators/roles.decorator";
 
 @Injectable()

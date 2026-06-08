@@ -1,6 +1,6 @@
 import { useMemo } from "react";
-import { useAuth } from "@hortti/auth";
-import { CompanyTier, Role } from "@hortti/types";
+import { useAuth } from "@app/auth";
+import { CompanyTier, Role } from "@app/types";
 
 /** Static flag matrix — swap for a remote provider in production. */
 const FLAGS: Record<string, { roles?: Role[]; tiers?: CompanyTier[] }> = {

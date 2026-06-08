@@ -1,6 +1,6 @@
-# Horttifruti
+# Monorepo
 
-Plataforma B2B de commerce para o agronegócio de hortifruti brasileiro.
+Plataforma genérica multi-persona (frontends React/Vite + serviços NestJS).
 Monorepo gerenciado por **Turborepo + pnpm workspaces**.
 
 ## Estrutura

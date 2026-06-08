@@ -1,7 +1,7 @@
 import { Body, Controller, Param, Post } from "@nestjs/common";
 import { ApiBearerAuth, ApiTags } from "@nestjs/swagger";
-import { Roles } from "@hortti/nest-core";
-import { Role, type Payment } from "@hortti/types";
+import { Roles } from "@app/nest-core";
+import { Role, type Payment } from "@app/types";
 import { PaymentService } from "./payment.service";
 
 @ApiTags("payments")

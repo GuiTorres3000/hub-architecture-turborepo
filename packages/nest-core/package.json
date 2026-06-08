@@ -1,5 +1,5 @@
 {
-  "name": "@hortti/nest-core",
+  "name": "@app/nest-core",
   "version": "0.0.0",
   "private": true,
   "main": "./src/index.ts",
@@ -12,7 +12,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@hortti/types": "workspace:*"
+    "@app/types": "workspace:*"
   },
   "peerDependencies": {
     "@nestjs/common": "^10.4.0",
@@ -23,7 +23,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@hortti/config": "workspace:*",
+    "@app/config": "workspace:*",
     "typescript": "^5.6.3"
   }
 }

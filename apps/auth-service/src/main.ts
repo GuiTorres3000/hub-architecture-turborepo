@@ -16,7 +16,7 @@ async function bootstrap() {
   );
 
   const config = new DocumentBuilder()
-    .setTitle("Horttifruti Auth Service")
+    .setTitle("App Auth Service")
     .setDescription("JWT issuance, refresh, and RBAC")
     .setVersion("1.0")
     .addBearerAuth()

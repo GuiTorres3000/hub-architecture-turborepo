@@ -10,7 +10,7 @@ export interface ViteBaseOptions {
 }
 
 /**
- * Shared Vite configuration for every Horttifruti React app.
+ * Shared Vite configuration for every App React app.
  * Apps call this with their port + root and may shallow-merge overrides.
  */
 export function createViteBaseConfig({ port, rootDir }: ViteBaseOptions): UserConfig {

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { useAuth } from "@hortti/auth";
-import { useRole } from "@hortti/hooks";
-import { Role } from "@hortti/types";
+import { useAuth } from "@app/auth";
+import { useRole } from "@app/hooks";
+import { Role } from "@app/types";
 
 /** Destination app per role — the hub is a pure router/redirector shell. */
 const ROLE_REDIRECT: Record<Role, string> = {
@@ -23,8 +23,8 @@ export function App() {
   }, [isAuthenticated, role]);
 
   return (
-    <main className="htt-hub">
-      <h1>Horttifruti</h1>
+    <main className="app-hub">
+      <h1>App</h1>
       <p>{isAuthenticated ? "Redirecionando…" : "Faça login para continuar."}</p>
     </main>
   );

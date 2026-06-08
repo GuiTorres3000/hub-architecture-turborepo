@@ -1,6 +1,6 @@
 /* eslint-env node */
 /**
- * Base ESLint config shared across the Horttifruti monorepo.
+ * Base ESLint config shared across the App monorepo.
  * Each package/app extends this and may add framework-specific overrides.
  * @type {import('eslint').Linter.Config}
  */

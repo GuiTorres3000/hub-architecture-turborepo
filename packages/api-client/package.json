@@ -1,5 +1,5 @@
 {
-  "name": "@hortti/api-client",
+  "name": "@app/api-client",
   "version": "0.0.0",
   "private": true,
   "main": "./src/index.ts",
@@ -12,14 +12,14 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@hortti/types": "workspace:*"
+    "@app/types": "workspace:*"
   },
   "peerDependencies": {
     "@tanstack/react-query": "^5.59.0",
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "@hortti/config": "workspace:*",
+    "@app/config": "workspace:*",
     "@types/react": "^18.3.12",
     "typescript": "^5.6.3"
   }

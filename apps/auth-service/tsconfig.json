@@ -1,5 +1,5 @@
 {
-  "extends": "@hortti/config/tsconfig.node.json",
+  "extends": "@app/config/tsconfig.node.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",

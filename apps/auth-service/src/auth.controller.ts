@@ -1,12 +1,12 @@
 import { Body, Controller, Get, Post } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
-import { CurrentUser, Public, ZodValidationPipe } from "@hortti/nest-core";
+import { CurrentUser, Public, ZodValidationPipe } from "@app/nest-core";
 import {
   LoginRequestSchema,
   type AuthTokens,
   type JwtPayload,
   type LoginRequest,
-} from "@hortti/types";
+} from "@app/types";
 import { AuthService } from "./auth.service";
 
 @ApiTags("auth")

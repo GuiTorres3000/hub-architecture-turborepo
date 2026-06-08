@@ -6,9 +6,9 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const VARIANT_CLASS: Record<NonNullable<ButtonProps["variant"]>, string> = {
-  primary: "htt-btn htt-btn--primary",
-  secondary: "htt-btn htt-btn--secondary",
-  ghost: "htt-btn htt-btn--ghost",
+  primary: "app-btn app-btn--primary",
+  secondary: "app-btn app-btn--secondary",
+  ghost: "app-btn app-btn--ghost",
 };
 
 export function Button({ variant = "primary", children, className, ...rest }: ButtonProps) {

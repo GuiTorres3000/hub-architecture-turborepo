@@ -16,7 +16,7 @@ async function bootstrap() {
   );
 
   const config = new DocumentBuilder()
-    .setTitle("Horttifruti Payment Service")
+    .setTitle("App Payment Service")
     .setDescription("Escrow and progressive unlock")
     .setVersion("1.0")
     .addBearerAuth()

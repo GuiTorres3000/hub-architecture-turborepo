@@ -7,9 +7,9 @@ export interface CardProps extends HTMLAttributes<HTMLDivElement> {
 
 export function Card({ title, children, className, ...rest }: CardProps) {
   return (
-    <div className={["htt-card", className].filter(Boolean).join(" ")} {...rest}>
-      {title ? <h3 className="htt-card__title">{title}</h3> : null}
-      <div className="htt-card__body">{children}</div>
+    <div className={["app-card", className].filter(Boolean).join(" ")} {...rest}>
+      {title ? <h3 className="app-card__title">{title}</h3> : null}
+      <div className="app-card__body">{children}</div>
     </div>
   );
 }

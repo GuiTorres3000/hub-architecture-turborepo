@@ -1,5 +1,5 @@
 import { createParamDecorator, ExecutionContext } from "@nestjs/common";
-import type { JwtPayload } from "@hortti/types";
+import type { JwtPayload } from "@app/types";
 
 /** Inject the authenticated principal (set by JwtAuthGuard) into a handler. */
 export const CurrentUser = createParamDecorator(

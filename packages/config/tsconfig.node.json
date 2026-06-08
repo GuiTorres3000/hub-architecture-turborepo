@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Horttifruti NestJS/Node",
+  "display": "App NestJS/Node",
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "module": "CommonJS",

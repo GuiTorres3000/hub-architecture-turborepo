@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import type { Role } from "@hortti/types";
+import type { Role } from "@app/types";
 import { useAuthContext } from "./AuthContext";
 
 /** RBAC helpers derived from the authenticated principal's role. */

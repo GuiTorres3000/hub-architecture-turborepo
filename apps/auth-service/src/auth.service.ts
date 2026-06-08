@@ -6,7 +6,7 @@ import {
   type AuthTokens,
   type JwtPayload,
   type LoginRequest,
-} from "@hortti/types";
+} from "@app/types";
 
 @Injectable()
 export class AuthService {
@@ -14,7 +14,7 @@ export class AuthService {
 
   /**
    * Validate credentials and mint access/refresh tokens.
-   * NOTE: stubbed user lookup — wire to @hortti/prisma + password hashing.
+   * NOTE: stubbed user lookup — wire to @app/prisma + password hashing.
    */
   async login({ email, password }: LoginRequest): Promise<AuthTokens> {
     const user = await this.findUser(email, password);

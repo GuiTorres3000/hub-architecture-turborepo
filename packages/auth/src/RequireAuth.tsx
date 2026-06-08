@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Navigate, useLocation } from "react-router-dom";
-import type { Role } from "@hortti/types";
+import type { Role } from "@app/types";
 import { useAuthContext } from "./AuthContext";
 
 export interface RequireAuthProps {

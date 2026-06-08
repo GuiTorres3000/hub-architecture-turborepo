@@ -1,4 +1,4 @@
-import type { ZodSchema } from "@hortti/types";
+import type { ZodSchema } from "@app/types";
 
 export interface HttpClientOptions {
   baseUrl: string;
