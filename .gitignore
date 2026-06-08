@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+
+# Env
+.env
+.env.*.local
+
+# Prisma generated client
+packages/prisma/node_modules/.prisma/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/

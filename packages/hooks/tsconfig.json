@@ -1,0 +1,7 @@
+{
+  "extends": "@hortti/config/tsconfig.vite.json",
+  "compilerOptions": {
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}

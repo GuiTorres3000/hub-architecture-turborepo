@@ -1,0 +1,26 @@
+{
+  "name": "@hortti/auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hortti/types": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@hortti/config": "workspace:*",
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.3"
+  }
+}
